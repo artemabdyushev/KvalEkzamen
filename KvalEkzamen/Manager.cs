@@ -25,10 +25,12 @@ namespace KvalEkzamen
         public int id_item { get; set; }
         public string item_name { get; set; }
         public int category_number { get; set; }
+        public string category_name { get; set; }
         public double cost { get; set; }
         public string about_item { get; set; }
-        public double reate_index_item { get; set; }
+        public double rate_index_item { get; set; }
         public int id_producer { get; set; }
+        public string producer_name { get; set; }
     }
 
     public class Producer

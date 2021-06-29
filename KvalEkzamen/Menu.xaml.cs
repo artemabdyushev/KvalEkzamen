@@ -25,7 +25,7 @@ namespace KvalEkzamen
 
         private void OpenItemsPage(object sender, RoutedEventArgs e)
         {
-
+            Manager.frame.Navigate(new ItemPage());
         }
 
         private void OpenCategoryPage(object sender, RoutedEventArgs e)

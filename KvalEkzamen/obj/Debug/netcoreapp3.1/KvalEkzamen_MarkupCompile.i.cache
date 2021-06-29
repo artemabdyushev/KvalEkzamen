@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\Artem\Desktop\квал экзамен\KvalEkzamen\App.xaml
-41649251915
+6304062750
 
-91884629024
+11-283880814
 193-762903560
-AddEditCategoryPage.xaml;CategoryPage.xaml;MainWindow.xaml;Menu.xaml;
+AddEditCategoryPage.xaml;AddEditItemPage.xaml;CategoryPage.xaml;ItemPage.xaml;MainWindow.xaml;Menu.xaml;
 
 True
 
