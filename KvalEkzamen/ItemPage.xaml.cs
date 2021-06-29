@@ -46,7 +46,7 @@ namespace KvalEkzamen
                                     cost = reader.GetDouble(3),
                                     category_name = reader.GetString(4),
                                     about_item = reader.GetString(5),
-                                    rate_index_item = reader.GetInt32(6),
+                                    rate_index_item = reader.GetDouble(6),
                                     id_producer = reader.GetInt32(7),
                                     producer_name = reader.GetString(8)
                                 });

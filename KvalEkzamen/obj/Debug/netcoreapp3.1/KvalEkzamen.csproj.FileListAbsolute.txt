@@ -31,3 +31,7 @@ C:\Users\Artem\Desktop\квал экзамен\KvalEkzamen\obj\Debug\netcoreapp3
 C:\Users\Artem\Desktop\квал экзамен\KvalEkzamen\obj\Debug\netcoreapp3.1\KvalEkzamen.dll
 C:\Users\Artem\Desktop\квал экзамен\KvalEkzamen\obj\Debug\netcoreapp3.1\KvalEkzamen.pdb
 C:\Users\Artem\Desktop\квал экзамен\KvalEkzamen\obj\Debug\netcoreapp3.1\KvalEkzamen.genruntimeconfig.cache
+C:\Users\Artem\Desktop\квал экзамен\KvalEkzamen\obj\Debug\netcoreapp3.1\AddEditItemPage.g.cs
+C:\Users\Artem\Desktop\квал экзамен\KvalEkzamen\obj\Debug\netcoreapp3.1\ItemPage.g.cs
+C:\Users\Artem\Desktop\квал экзамен\KvalEkzamen\obj\Debug\netcoreapp3.1\AddEditItemPage.baml
+C:\Users\Artem\Desktop\квал экзамен\KvalEkzamen\obj\Debug\netcoreapp3.1\ItemPage.baml

@@ -85,11 +85,13 @@ namespace KvalEkzamen
         public AddEditItemPage()
         {
             InitializeComponent();
+            fillCombo();
             isEdit = false;
         }
         public AddEditItemPage(Items items)
         {
             InitializeComponent();
+            fillCombo();
             isEdit = true;
             items1 = items;
             ItemInput.Text = items.item_name;
