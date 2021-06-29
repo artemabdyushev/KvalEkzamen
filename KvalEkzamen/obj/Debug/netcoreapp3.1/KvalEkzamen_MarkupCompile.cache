@@ -1,5 +1,5 @@
 ﻿KvalEkzamen
-1.0.0.0
+
 
 winexe
 C#
@@ -12,9 +12,9 @@ TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\Artem\Desktop\квал экзамен\KvalEkzamen\App.xaml
 41649251915
 
-91884629024
+71100442013
 193-762903560
 AddEditCategoryPage.xaml;CategoryPage.xaml;MainWindow.xaml;Menu.xaml;
 
-True
+False
 

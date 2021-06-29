@@ -9,6 +9,49 @@
       Title="CategoryPage">
 
     <Grid Background="White">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="123*"/>
+            <ColumnDefinition Width="128*"/>
+            <ColumnDefinition Width="123*"/>
+            <ColumnDefinition Width="128*"/>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="80*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="21*"/>
+            <RowDefinition Height="187*"/>
+        </Grid.RowDefinitions>
+        <ListView Grid.Row="2" Name="CategoryList" ScrollViewer.HorizontalScrollBarVisibility="Disabled" Grid.ColumnSpan="7">
+            <ListView.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <WrapPanel Orientation="Horizontal"/>
+                </ItemsPanelTemplate>
+            </ListView.ItemsPanel>
+            <ListView.ItemTemplate>
+
+                <DataTemplate>
+                    <Border BorderBrush="Aqua" BorderThickness="1">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                                <RowDefinition Height="50"/>
+                            </Grid.RowDefinitions>
+                            <TextBlock TextWrapping="WrapWithOverflow" Grid.Row="0" Width="100" Text="{Binding category_name, StringFormat=Название категории: {0}}"/>
+                        </Grid>
+                    </Border>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
         
+        <Button Click="btnRemove" Content="Удалить" Grid.Column="4"/>
+        <Button Click="btnCreate" Content="Создать" Grid.Column="5"/>
+        <Button Click="btnEdit" Content="Редактировать" Grid.Column="6"/>
     </Grid>
 </Page>

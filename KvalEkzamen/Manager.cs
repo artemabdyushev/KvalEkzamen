@@ -40,6 +40,6 @@ namespace KvalEkzamen
     class Manager
     {
         public static Frame frame;
-        public static readonly string connectionInfo = ConfigurationManager.ConnectionStrings["connectionSqlCheck"].ToString();
+        public static readonly string connectionInfo = ConfigurationManager.ConnectionStrings["connection"].ToString();
     }
 }
