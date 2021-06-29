@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Vu0RYTnHc9ucX2T2YGP5hYB2r1aHmQj4MlbaSss5/pKhmc6ioS1MYQBHE61HwJuuWAXEnNiWgfR+anLsfvzXfg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Artem\\Desktop\\квал экзамен\\KvalEkzamen\\KvalEkzamen.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Artem\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}
